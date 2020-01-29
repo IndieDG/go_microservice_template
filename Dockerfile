@@ -10,4 +10,4 @@ RUN go install -v ./...
 RUN go build .
 
 EXPOSE 90
-CMD ["main", "-b", ":90"]
+CMD ["go_microservice_template", "-b", ":90"]
